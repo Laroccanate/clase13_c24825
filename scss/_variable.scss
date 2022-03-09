@@ -1,0 +1,14 @@
+$colorPrimario: rgb(0, 0, 0),
+$dispositivo: desktop
+
+body{
+    @if $dispositivo == mobile {
+        @media onlye screen and (max-width \: 768px){
+            h1{font-size: 50px}
+            h3{font-size: 20px;}
+        }
+        
+    }@else if $dispositivo == desktop {
+        
+    }
+}
