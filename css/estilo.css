@@ -1,6 +1,3 @@
-h1 {
-  color: black; }
-
 h2 {
   padding: 3rem; }
 
@@ -10,3 +7,44 @@ h2 {
     justify-content: flex-end;
     align-items: center;
     margin-top: 90px; } }
+
+header {
+  width: 100%; }
+
+.colorPrimario {
+  color: black; }
+
+.colorSecundario {
+  color: Gray; }
+
+h6 {
+  color: black;
+  text-align: center;
+  font-size: 10px; }
+
+.boton, .boton-send, .boton-reset, .boton-noapply {
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 20px; }
+
+.boton-send {
+  color: green; }
+
+.boton-reset {
+  color: red; }
+
+.boton-noapply {
+  color: blue; }
+
+h5 {
+  color: black;
+  background-color: white; }
+
+.div h6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
